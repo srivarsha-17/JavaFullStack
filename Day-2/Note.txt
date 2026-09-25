@@ -1,0 +1,4 @@
+git --version
+git config --list
+git config set --g user.name "srivarsha-17"
+git config set --g user.email "23BQ1A0523@vvit.net"
