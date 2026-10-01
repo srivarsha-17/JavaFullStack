@@ -1,0 +1,239 @@
+Javascript:
+ ->scripting langauge and programming langauge
+ ->runs on the browser
+ ->dynamically typed programming langauge //variables accepts any type of data Eg: var a = 10 , a = "string"
+ ->javascript has only interpreted no complier
+ ->JS has a single call stack 
+
+
+
+USES:
+--------------------------------------------------------------------------------
+1. using JS we can build dynamic web applications
+2. JS is used to add functionalities to the webpage
+3. here we can achiveeve Dom(document object model) functionalities
+4. we can manipulate teh html and css using dom properties
+5. We can fetch data and recive data through APIS using JS
+
+
+
+1991-> mocha
+1995-> netscape (browser company)
+|
+livescript
+|
+javascript
+|
+ECMA script
+
+stable version ->  ES6
+
+previous version -> ES16
+
+
+
+
+Implementation : 
+-------------------------------
+
+1.Inline
+2.Internal
+3.External
+
+
+
+1. Inline
+
+<button onClick = "alert("User has clicked")> </button>
+
+
+weriting the code within the same tag
+
+
+
+2. Internal
+
+within the same html file , we can werite the code using the script tag
+
+<script>
+
+
+
+<script>
+
+
+-> generally preferred at the bottom 
+-> can be written anywhere
+-> it is beacuse some events should run after loading the entire page
+
+-> you can also use the keyword defer => help to call the attibute at the end
+
+-> you can also use async = "true" => the js code is displayed at the end
+
+
+defer /// async = "true"
+
+
+
+3. External
+
+External javascript is where you usse a sepeate file without including it in the same file
+
+
+
+If you want to use Javascript as a programming langage you need to download the required node 
+packgaes
+
+
+You can run using : node script.js
+
+You can also link it to the html file as : 
+<script src = "script.js></script>
+
+
+
+
+Write all the javascript engines in browsers
+
+
+Tokens: 
+--------------------------------------------------------------------------------
+    -> tokens are the smallest units in hte JS code
+    -> tokens are classified into : 
+     1. Identifers
+     2. Keywords
+     3. Literals
+     4. Operators
+     5. Seperators
+     6. Comments
+
+
+IDENTIFIERS:
+-------------------------------------------------
+Identifers are the names given to the code
+In the place identifiers we cant use Keywords
+ex : class name variable name function name
+
+2. KeyWords: 
+
+-> Keywords are the predifined words that have a speical meaning
+-> In js total 66 Keywords
+
+Seperators:
+
+: " " ' ' ; 
+
+
+
+
+
+
+
+DataTypes: 
+    what kind of data is sotred in the data
+
+    1. Primitive DataTypes => only one value can be stroed at a time
+    -> immutable 
+
+
+Primitive data types: 
+
+immutable => since you can change only the value of it not the reference
+
+There are 7 primitive datatypes : 
+1. number 
+2. string
+3.boolean
+4.undefined
+5. null
+6. symbol
+7. bigint 
+
+1. number : 
+ 2, 3, 4 , 5.6 etc all the nummbers of both int and float
+
+
+2. string
+ "apple" , 'ball'
+
+
+3. boolean
+ true false
+
+
+4. undefined
+
+
+
+5. null
+typeof null  => object => unresolved bug in js
+
+6. symbol
+
+let s = Symbol(52)
+let s1 = Symbol(52)
+
+typeof s => Symbol
+
+s==s1  => false
+
+
+Non Primitive DataTypes:
+  1. Arrays
+    -> contiguous allocation of memory where data is stored in the sequence
+    -> linear data structures used to store collection of homogeneous data or
+    heterogeeous data
+
+    In JS Array Declaration : 
+    1. literal way : 
+    Eg ; let arr = [1,2,3,4,5]
+
+
+    2. using new keyword / object:
+    Eg : let arr = new Array(10,20,30,40)
+
+
+    Array inbuilt functions : 
+    let arr1 = [null,true,500,'javascript']
+
+    1.push():
+      used to push element at the end of the array 
+
+      Eg: arr1.push(50) => [null,true,500,'js',50] => added at the end
+
+
+    2.spread operator (...):
+    Eg : arr1 = [10,20,30,40]
+        arr2 = [1,2,3,4,5]
+        arr2.push(...arr1)
+        now arr2 = [1,2,3,4,5,10,20,30,40,50] // arr2 is added to arr1
+
+        arr2.push(arr1) // the entire array is added as a new element
+
+        now arr2 = [1,2,3,4,5,[10,20,30,40,50]]
+
+    
+    3. shift()
+
+    shift opertor is used to remove element at the 0th position
+
+    4. unshift()
+
+    unshift operator is used to add element at the 0th position
+
+
+
+    push => add at the end
+    pop => remvoe at the end
+    shift => add at the start
+    unshift => remvoe at the start
+
+    5. splice()
+
+    arr1 = [1,2,3,4,5]
+    arr1.splice(2,1) //start at index 2 and remvoe 2 elements form There
+
+
+    arr1.splice(2,0,true,null,5000) // start at index 2 and add the given elements 
+
+    

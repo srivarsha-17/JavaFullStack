@@ -1,0 +1,84 @@
+LISTS IN HTML
+
+
+Types of list: 
+1.Ordered list
+2.Unordered list
+3.Nested list
+4.Descriptive list
+
+
+Ordered List:
+----------------
+<ol type = "a" start = "5" reversed>    ----> start = number where the ordering should start
+reverse can be used for representing in the reverse order
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Hloooo</li>
+    </ol>
+
+
+    start = numbers
+    type = 1,a,A,I,i
+    3. reversed
+
+
+==============================================================================================================
+
+UNORDERED LIST: 
+
+default type of pointers : disc
+
+Types avaiable: 
+1. disc
+
+
+
+=======================================================================================================
+===============================================================================================================
+
+FORMS
+
+form tags:
+
+<form>
+<fieldset> --> form border
+<legend> --> used to descibe form title
+<label>  --> used to provide a label to the input boxes
+<input>   --> to select the type of input
+
+<select> --> 
+<option> --> in the select you can have options 
+
+<button> --> 
+<submit>
+
+
+<textarea> --> used to take large input form the user
+textarea is flexible compared to input for taking large input data
+
+
+
+
+
+action = "" => after the form is submtted the given fille is executed generally used for input validation
+
+
+<label> tag:
+for in label is used for using connecting the input box and its label
+
+
+buttons in forms: 
+
+
+u can use <button>
+
+or use <input type = "button" value = "Clear"> // the clear value is displayed as the button name
+
+
+
+Constraints that can be applied to the input box: 
+
+required => that input field should be added for sure
+
+maxlength -> you can specify the max length that can be used

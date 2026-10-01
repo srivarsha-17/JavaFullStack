@@ -1,0 +1,551 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Products</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6f8;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        .laptop-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            background-color: #fafafa;
+        }
+
+        .details {
+            padding: 15px;
+        }
+
+        .details h2 {
+            font-size: 18px;
+            color: #222;
+            margin-bottom: 12px;
+        }
+
+        .details p {
+            font-size: 14px;
+            margin: 7px 0;
+            color: #555;
+        }
+
+        .price {
+            font-size: 19px;
+            font-weight: bold;
+            color: #1565c0;
+            margin-top: 12px;
+        }
+
+        .buy-btn {
+            width: 100%;
+            padding: 9px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1565c0;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #0d47a1;
+        }
+
+        /* For smaller screens */
+        @media (max-width: 900px) {
+            .laptop-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .laptop-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        marquee {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+marquee span {
+    margin: 0 50px;
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Laptops</h1>
+
+    <div class="laptop-container">
+
+        <div class="card">
+            <img src="laptop.avif" alt="Dell Laptop">
+
+            <div class="details">
+                <h2>Dell Inspiron 15</h2>
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i5</p>
+                <div class="price">₹65,999</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="laptop.avif" alt="HP Laptop">
+
+            <div class="details">
+                <h2>HP Pavilion 14</h2>
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i5</p>
+                <div class="price">₹62,999</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="laptop.avif" alt="Lenovo Laptop">
+
+            <div class="details">
+                <h2>Lenovo IdeaPad 5</h2>
+                <p><strong>RAM:</strong> 8 GB</p>
+                <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> Ryzen 5</p>
+                <div class="price">₹55,999</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="laptop.avif" alt="ASUS Laptop">
+
+            <div class="details">
+                <h2>ASUS VivoBook 15</h2>
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 1 TB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i7</p>
+                <div class="price">₹72,999</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+    <span>DELL</span>
+    <span>HP</span>
+    <span>LENOVO</span>
+    <span>ASUS</span>
+    <span>ACER</span>
+    <span>APPLE</span>
+    <span>MICROSOFT</span>
+    <span>MSI</span>
+</marquee>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .card{
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            gap:20px;
+        }
+
+        .photo{
+            margin: 10px;
+            height : 200px;
+            width : 200px;
+        }
+
+        .cards{
+        
+            background-color: grey;
+
+            width : 300px;
+            
+        }
+        .theory{
+            text-align: center;
+            padding : 2px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "card">
+    <div class="cards">
+        <img class = "photo" src = "23BQ1A0523-SI.PNG">
+        <div class="theory">
+            Name : laptop1<br>
+            Brand: DELL<br>
+            Rating : 4.5/5<br>
+            Cost : 500000<br>
+            
+            
+        </div>
+    </div>
+    <div class="cards">
+        <img class = "photo" src = "23BQ1A0523-SI.PNG">
+        <div class="theory">
+            Name : laptop1<br>
+            Brand: DELL<br>
+            Rating : 4.5/5<br>
+            Cost : 500000<br>
+            
+            
+        </div>
+    </div>
+    <div class="cards">
+        <img class = "photo" src = "23BQ1A0523-SI.PNG">
+        <div class="theory">
+            Name : laptop1<br>
+            Brand: DELL<br>
+            Rating : 4.5/5<br>
+            Cost : 500000<br>
+            
+            
+        </div>
+    </div>
+   
+    
+
+    </div>
+</body>
+</html> -->
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Products</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6f8;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #222;
+        }
+
+        .laptop-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            background-color: #fafafa;
+        }
+
+        .details {
+            padding: 20px;
+        }
+
+        .details h2 {
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .details p {
+            margin: 8px 0;
+            color: #555;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1565c0;
+            margin-top: 15px;
+        }
+
+        .buy-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 18px;
+            border: none;
+            border-radius: 6px;
+            background-color: #1565c0;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #0d47a1;
+        }
+
+        @media (max-width: 700px) {
+            .laptop-container {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Laptops</h1>
+
+    <div class="laptop-container">
+
+         Laptop 1 -->
+        <!-- <div class="card">
+            <img src="laptop.avif" alt="Dell Laptop">
+
+            <div class="details">
+                <h2>Dell Inspiron 15</h2>
+
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i5</p>
+
+                <div class="price">₹65,999</div>
+
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+       Laptop 2 -->
+        <!-- <div class="card">
+            <img src="laptop.avif" alt="HP Laptop">
+
+            <div class="details">
+                <h2>HP Pavilion 14</h2>
+
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i5</p>
+
+                <div class="price">₹62,999</div>
+
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+       Laptop 3 -->
+        <!-- <div class="card">
+            <img src="laptop.avif" alt="Lenovo Laptop">
+
+            <div class="details">
+                <h2>Lenovo IdeaPad 5</h2>
+
+                <p><strong>RAM:</strong> 8 GB</p> -->
+                <!-- <p><strong>Storage:</strong> 512 GB SSD</p>
+                <p><strong>Processor:</strong> AMD Ryzen 5</p>
+
+                <div class="price">₹55,999</div>
+
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        Laptop 4 -->
+        <!-- <div class="card">
+            <img src="laptop.avif" alt="ASUS Laptop">
+
+            <div class="details">
+                <h2>ASUS VivoBook 15</h2> --> 
+<!-- 
+                <p><strong>RAM:</strong> 16 GB</p>
+                <p><strong>Storage:</strong> 1 TB SSD</p>
+                <p><strong>Processor:</strong> Intel Core i7</p>
+
+                <div class="price">₹72,999</div>
+
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+</body> -->
+<!-- </html> -->
