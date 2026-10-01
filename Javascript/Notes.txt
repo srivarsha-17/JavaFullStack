@@ -227,13 +227,32 @@ Non Primitive DataTypes:
     pop => remvoe at the end
     shift => add at the start
     unshift => remvoe at the start
+    splice => add or delete an element at any index
 
     5. splice()
 
     arr1 = [1,2,3,4,5]
-    arr1.splice(2,1) //start at index 2 and remvoe 2 elements form There
+    arr1.splice(2,1) //start at index 2 and remvoe 2 elements form There and add elemetns if needed
 
 
-    arr1.splice(2,0,true,null,5000) // start at index 2 and add the given elements 
+    arr1.splice(2,1,true,null,5000) // start at index 2 removes 1 elemetns and adds true null 5000 into the array
+    arr1.splice(2,0,true,null,5000) // start at index 2 removes 0 elemetns and adds true null 5000 into the array
+
+
+   6.reverse():
+   The reverse method is used to reverse the elements of the array
+   arr.reverse()
+
+   7. sort()
+  It is used to sort the array
+
+LOOPS IN ARRAYS:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+i. for
+ii. while
+iii. do while
+iv. for-in
+v.for-of
+vi.forEach
 
     
