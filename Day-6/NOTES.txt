@@ -1,0 +1,10 @@
+CSS Transfrom: 
+---------------------------------------------------------------------
+transform : rotate(180deg)
+transform : scale(2);//object appears two times of the original size
+
+transform : translateX(20px)
+transform : translateY(20px)
+transform : translate(20px,20px)
+transfrom : skew(30deg)
+

@@ -1,0 +1,21 @@
+*{
+    margin : 0;
+}
+
+div{
+    height : 300px;
+    width : 300px;
+    background-color : lavender;
+    
+}
+div:hover{
+    background-color: antiquewhite;
+    transform : rotate(180deg);
+    transform : scale(0.5);
+    transform : translate(20px);
+    transform : translate(20px,20px);
+    transform : skew(30deg)
+
+}
+
+
