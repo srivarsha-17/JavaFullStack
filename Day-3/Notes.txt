@@ -82,3 +82,20 @@ Constraints that can be applied to the input box:
 required => that input field should be added for sure
 
 maxlength -> you can specify the max length that can be used
+
+
+
+==================================================================================================================================================================
+
+Transitions: 
+
+Transitins enable you t define the transition betwee two states of an element
+
+• Transition-Property: This defines exactly which CSS styles will animate (e.g., background-color, opacity, transform).
+
+• Transition-Duration: This sets the total time the animation takes to complete, measured in seconds (s) or milliseconds (ms). 
+Note: The transition will not work if this is omitted or set to 0s.
+
+• Transition-Timing-Function: This sets the acceleration curve of the effect, controlling whether it starts slow, runs at a constant speed, or snaps into place (e.g., linear, ease-in, ease-out, ease-in-out).
+
+• Transition-Delay: This creates a pause or waiting period before the animation actually begins moving.
