@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    height : 100vh;
+    background-color : skyblue;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    animation : disco 1s linear 1s infinite normal;
+}
+
+@keyframes disco{
+    0%{
+        background-color : pink;
+    }
+    25%{
+        background-color : lavender;
+    }
+    50%{
+        background-color : paleturquoise
+    }
+    75%{
+        background-color : lightgoldenrodyellow;
+    }
+    100%{
+        background-color : lightseagreen;
+    }
+}

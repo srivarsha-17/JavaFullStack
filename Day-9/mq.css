@@ -1,0 +1,25 @@
+.class1{
+ width : 200px;
+ height : 200px;
+ background-color : paleturquoise;
+ display : flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+@media (max-width : 300px){
+    .class1{
+        background-color: green;
+    }
+}
+@media (max-width : 200px){
+    .class1{
+        background-color: cornflowerblue;
+    }
+}
+@media (max-width : 100px){
+    .class1{
+        background-color: black;
+    }
+}
