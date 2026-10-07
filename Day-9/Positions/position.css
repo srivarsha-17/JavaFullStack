@@ -1,0 +1,52 @@
+div{
+    display: inline-block;
+    height : 200px;
+    width : 200px;
+    border: 2px solid black
+    ;
+}
+
+
+
+
+#box1{
+    background-color: mediumaquamarine;
+    position: static;
+    bottom : 70px;
+}
+
+#box2{
+    background-color : lavender;
+    position : relative;
+    top : 40px;
+    left : 30px;
+}
+
+#box3{
+    /* z-index : 1; */
+    background-color: bisque;
+    position : fixed;
+    top : 20px;
+    left : 10px;
+}
+
+#box4{
+    position : sticky;
+    left : 40px;
+    top : 10px;
+    background-color: skyblue;
+
+
+}
+
+
+
+#box5{
+    position: absolute;
+    background-color : orange;
+
+    top: 50px;
+    z-index: -1;
+}
+
+

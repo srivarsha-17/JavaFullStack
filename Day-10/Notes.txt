@@ -1,0 +1,43 @@
+variables : 
+var let and const 
+
+var -> global scope
+
+let -> block scope
+const -> block scope
+
+
+const cannot be reassigned
+
+
+Primitve data types : 
+1. String
+2. Number
+3.BigInt
+4. Symbol
+5. Undefined
+6. Null
+7. Boolean
+
+
+Complex data types ; 
+1. objects
+2. arrays
+
+
+
+Operator Precedence: 
+===========================================================================
+
+1. brackets
+2. division
+3. multiplication
+4. addition subtraction
+
+
+======================================================================================
+
+contorl structures
+
+
+1. loops
